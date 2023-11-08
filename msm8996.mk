@@ -382,9 +382,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_xiaomi
 
-# Release Keys
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/bb-priv/keys/releasekey
-
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
