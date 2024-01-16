@@ -45,6 +45,11 @@
             </intent-filter>
         </provider>
 
+        <provider xmlns:tools="http://schemas.android.com/tools"
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            tools:replace="android:authorities" />
+
         <activity
             android:name=".ButtonSettingsActivity"
             android:label="@string/button_panel_title"
