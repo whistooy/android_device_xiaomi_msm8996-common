@@ -140,10 +140,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
     vendor.qti.hardware.btconfigstore@2.0.vendor:64
 
-# Bluetooth (shared dependencies)
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.fm@1.0.vendor
-
 # Call Recording
 TARGET_SUPPORTS_CALL_RECORDING := false
 
@@ -198,7 +194,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8996 \
     libdisplayconfig \
     libdisplayconfig.qti \
-    libgralloc.system.qti \
     libqdMetaData \
     libtinyxml \
     vendor.display.config@1.0.vendor \
